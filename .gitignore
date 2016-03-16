@@ -1,2 +1,4 @@
 .idea/
 MovieRecommander.iml
+.DS_Store
+out/

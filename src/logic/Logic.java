@@ -7,8 +7,15 @@ import common.ConnectionTMDb;
  */
 public class Logic {
 
-    public Logic(String movieID) {
+    private static String apiKey;
+
+
+    public Logic() {
         ConnectionTMDb conn = new ConnectionTMDb();
 
+    }
+
+    public void setApiKey(String apiKey) {
+        this.apiKey = apiKey;
     }
 }
